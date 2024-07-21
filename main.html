@@ -8,9 +8,64 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <script type="text/javascript" src="./script.js"></script>
+	
+	<div class="imageContainer"><img src="https://images.unsplash.com/photo-1709884732273-c20d3347aa40?q=80&w=1858&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width=200 height="200"></div>
+	<table>
+		<tr>
+			
+			<td>First</td>
+			<td>Second</td>
+			<td>Third</td>
+		</tr>
+		<tr>
+			
+			<td><img src="https://images.unsplash.com/photo-1544894079-e81a9eb1da8b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			height="100px" width="200px"></td>
+			<td>However, for fresh, unpasteurized milk from a local dairy, it is recommended to boil the milk before drinking, as it may contain bacteria that can cause stomach issues if consumed raw</td>
+			<td><img src="https://images.pexels.com/photos/158725/a-drop-of-water-osa-water-leaf-158725.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+			height="100px" width="200px"></td>
+		</tr>
+		<tr>
+			
+			<td><img src="https://images.unsplash.com/photo-1710609942195-b9dab8f48fc6?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			height="100px" width="200px"></td>
+			<td><p>You can safely drink packaged, pasteurized milk like Amul or Muralya without boiling it first. These milks have gone through the pasteurization process, which kills any harmful bacteria, making them safe to consume directly from the package</p></td>
+			<td><img src="https://images.unsplash.com/photo-1611697522020-f44d4e818698?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			height="100px" width="200px"></td>
+			
+		</tr>
+	</table>
+
 
 </body>
 
 </html>
+Architecture  /*  your css code here. If applicable */
+table{
+   border-collapse:collapse;
+   text-align:center;
+	width:100%
+}
+
+body{
+	width:1100px;
+	margin: 0 auto;
+	
+}
+
+td{
+	min-height: 100px;
+}
+
+tr,td,th{
+	border:1px solid black;
+}
+
+th:nth-child(1), th:nth-child(3), td:nth-child(1), td:nth-child(3){
+	width:200px;
+}
+
+th:nth-child(2), td:nth-child(2){
+	width:600px;
+}
